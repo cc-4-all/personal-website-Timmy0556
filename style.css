@@ -10,7 +10,7 @@ nav {
 display: flex;
 width: 100%;
 justify-content: space-between;
-background: blanchedalmond;
+background: lightgray;
 padding: 25px;
 }
 
@@ -35,18 +35,23 @@ text-align: center;
 width: 100%;
 bottom: 0;
 margin-top: 25px;
-margin-top: 2000px;
 }
 
-h3{
- object-position:right top;
+.profile-picture {
+border-radius: 100%;
+
+transition: all ease-in-out 300ms;
 }
 
-.image {
-    float: right;
-    height: 1765px;
+.profile-item {
+margin-top: 50px;
+margin-bottom: 50px;
 }
 
-.bar {
-    float: left;
+.initials {
+color: blueviolet;
+}
+
+img {
+margin-top: 10px;
 }
